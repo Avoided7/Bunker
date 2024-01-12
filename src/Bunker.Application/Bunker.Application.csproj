@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MembersGameData\Services\rfo31kua.0ec~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Games\Commands\AddToGame\" />
+    <Folder Include="Games\Commands\StartGame\" />
+    <Folder Include="Games\Queries\GetGameById\" />
+    <Folder Include="Members\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bunker.Domain\Bunker.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bunker.Application\Bunker.Application.csproj" />
+    <ProjectReference Include="..\Bunker.Infrastructure\Bunker.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
